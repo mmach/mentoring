@@ -1,0 +1,23 @@
+{
+  "name": "js1",
+  "version": "1.0.0",
+  "description": "jS CORe",
+  "main": "app.js",
+  "dependencies": {
+    "websocket": "^1.0.24"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "eslint": "^3.15.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js",
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}

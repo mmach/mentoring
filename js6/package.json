@@ -1,0 +1,22 @@
+{
+  "name": "zad2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "httpdispatcher": "^2.1.0"
+  },
+  "devDependencies": {
+
+ 
+    "webpack": "^2.3.3",
+    "webpack-sass": "^2.2.1"
+  },
+  "scripts": {
+    "test": "eslint ./public/*.js & eslint *.js",
+    "start": "webpack & node server.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}

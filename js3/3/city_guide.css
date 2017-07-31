@@ -1,0 +1,386 @@
+body {
+  width: 100%; }
+
+* {
+  font-family: 'Roboto', sans-serif; }
+
+.logo {
+  width: 60%;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 1%;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: normal; }
+
+.topnav-right, .topnav-left {
+  width: 20%;
+  padding: 1%; }
+
+.main {
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 1%; }
+  .main div img {
+    width: 90%; }
+
+a {
+  text-decoration: none !important; }
+
+.sideNav {
+  width: 10%;
+  max-width: 30%;
+  padding: 1%;
+  padding-top: 0px; }
+
+.footer {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: #333333;
+  color: #eeeeee;
+  padding-top: 80px; }
+
+nav {
+  height: 5%;
+  padding: 1%;
+  height: 60px; }
+
+.moreIcon {
+  width: 13px; }
+
+.moreLinkText {
+  vertical-align: top;
+  background-color: #cccccc;
+  color: #ffffff !important;
+  padding-left: 10px;
+  line-height: 25px; }
+
+.moreLink:hover {
+  color: #666666 !important; }
+
+.navContainer > li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.navContainer {
+  height: 30px; }
+
+.mainLinks > li > a {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none; }
+
+.subLinks > li > a {
+  color: #666666;
+  text-decoration: none; }
+
+.subLinks > li > a:hover {
+  color: #999999; }
+
+.mainLinks {
+  border-bottom: 1px solid #aaaaaa; }
+
+.subLinks {
+  border-bottom: 2px solid #333333; }
+
+.navContainer, .body {
+  display: flex;
+  justify-content: center; }
+
+ul, li, nav, header {
+  margin: 0px;
+  padding: 0px; }
+
+.signNewsletter {
+  text-transform: uppercase; }
+
+.socialReminder {
+  font-size: 12px; }
+
+.newsletterLink {
+  text-decoration: underline; }
+
+a {
+  color: #333333; }
+
+a:visited {
+  color: #333333; }
+
+a:active {
+  color: blue; }
+
+a:hover {
+  color: #999999;
+  cursor: pointer; }
+
+.accountLinks {
+  display: flex;
+  justify-content: center;
+  list-style: none; }
+
+.accountLinks > li {
+  border-right: 1px solid #333333;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.accountLinks > li > a {
+  text-align: right;
+  text-transform: uppercase; }
+
+.accountLinks > li:last-child {
+  border-right: solid #FFFFFF; }
+
+.queryButton {
+  padding: 10px;
+  width: 90%;
+  color: #666666;
+  margin-top: 20px;
+  margin-bottom: 5px; }
+
+.promotionShort > em {
+  font-size: 14px;
+  color: #666666; }
+
+.promotionShort > em > a {
+  text-decoration: underline; }
+
+header {
+  border-bottom: 2px solid #000000; }
+
+nav {
+  height: 80px; }
+
+.mappingPath {
+  font-size: 15px;
+  font-color: #333333;
+  font-weight: normal;
+  width: 100%;
+  padding-bottom: 20px; }
+
+.mappingPath > a {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.mappingPath > a:first-child {
+  padding-left: 0px; }
+
+.headerLink {
+  text-transform: uppercase;
+  font-size: 20px; }
+
+.groupNavLink {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.groupNavLink > li {
+  list-style: none;
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.groupNavLink > li > a {
+  text-decoration: none; }
+
+.groupNavLink > li:first-child {
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 0px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.viewAll {
+  color: #000066 !important; }
+
+.viewAll:hover {
+  color: #0000FF !important; }
+
+.shopLink {
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+  height: 150px;
+  border: 1px solid #999999; }
+
+.shopLink > h1 {
+  padding: 5px;
+  text-align: center; }
+
+.shopLink > a {
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 1px solid #000000; }
+
+.footerLink > a:hover {
+  color: #aaaaaa; }
+
+.footerLink > a {
+  text-transform: uppercase;
+  color: #eeeeee;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.footer > ul > li {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.footer > ul {
+  justify-content: center;
+  display: flex; }
+
+.footerLink {
+  border-right: 1px solid #eeeeee; }
+
+.footerLink:last-child {
+  border-right: 0px solid #eeeeee; }
+
+.companyRemark {
+  text-transform: uppercase;
+  font-size: 14px; }
+
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: center; }
+    header #nav-mobile {
+      display: none; } }
+
+@media (max-width: 600px) {
+  header {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding-bottom: 30px; }
+    header .topnav-left {
+      display: none; }
+    header .logo {
+      width: 90%; }
+    header .logo > h1 {
+      font-size: 16px; }
+    header #nav-mobile {
+      padding-top: 5px; }
+    header #nav-mobile > img {
+      max-width: 40px; }
+    header .topnav-right {
+      width: 100%;
+      padding-left: 10%;
+      padding-right: 10%; }
+      header .topnav-right .accountLinks {
+        display: none; }
+      header .topnav-right .promotionShort {
+        display: none; }
+      header .topnav-right .queryButton {
+        width: 100%; }
+  .footer {
+    display: none; }
+  .newLineMobile {
+    page-break-after: always;
+    /* CSS 2.1 syntax */
+    break-after: always;
+    /* New syntax */
+    width: 100%; }
+  .sideNav {
+    display: none; }
+  .main {
+    align-content: space-between;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: center;
+    displaY: flex;
+    margin-top: 30%; }
+    .main .linkName {
+      width: 100%;
+      flex-flow: row wrap;
+      justify-content: center;
+      /*   &::before
+      {
+        width:70%;
+        content:"";
+        display:block;
+        height:1px;
+        background-color:#333
+      }
+       &::after
+      {
+         width:70%;
+        content:"";
+        display:block;
+        height:1px;
+        background-color:#333
+      }*/ }
+  #nav-mobile:hover {
+    cursor: pointer; }
+  #nav-mobile:focus {
+    pointer-events: none; }
+  #nav-mobile:focus .mobileLinkContainer {
+    /*  opacity is 1 in opened state (see below) */
+    opacity: 1;
+    visibility: visible;
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto; }
+  nav {
+    display: none; }
+  .mobileLinkContainer {
+    position: absolute;
+    z-index: 99;
+    top: -2px;
+    left: -7px;
+    /* use opacity to fake immediate toggle */
+    opacity: 1;
+    visibility: hidden;
+    transition: visibility 0.5s;
+    width: 80%;
+    min-height: 100%;
+    height: 1000px;
+    background-color: white;
+    display: block;
+    padding: 0px; }
+    .mobileLinkContainer div {
+      text-align: center; }
+      .mobileLinkContainer div .queryButton {
+        width: 90%; }
+  .navMobile {
+    padding: 10px;
+    margin-top: 10px; }
+    .navMobile li {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      width: 80%;
+      border-bottom: 1px solid #aaa;
+      margin-left: 20px;
+      list-style: none; }
+      .navMobile li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 20px; }
+  .signInMobile {
+    margin-top: 100px; }
+    .signInMobile li {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      width: 80%;
+      margin-left: 20px;
+      list-style: none; }
+      .signInMobile li a {
+        color: #999;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 20px; }
+      .signInMobile li a:hover {
+        color: #ccc; }
+  .headerMain {
+    text-transform: uppercase;
+    text-align: center; } }
